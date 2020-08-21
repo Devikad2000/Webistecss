@@ -1,0 +1,101 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    height: 80%;
+}
+header{
+
+}
+body{
+    background-image:url(../MyWebsite/Images/bg33.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #F2F6F7;
+
+    
+}
+div{
+    color: black;
+    font-size: 30px;
+    font-family: Quicksand;
+}
+#dev{
+ color: green;   
+ font-family: Baloo Tamma 2 SemiBold;
+ 
+}
+nav{
+    width: 100%;
+    height: 5vh;
+padding: 20px;
+overflow: hidden;
+border-bottom: 2px solid gray;
+background-color: #f33f3;
+}
+ul{
+    font-size: 15px;
+    float: right;
+    list-style-type: none;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #E3BABA; 
+    padding: 5px 50px;
+    border: none;
+    transition: o.6s ease;
+
+}
+ul li a:hover{
+    color: red;
+}
+ul li.active a{
+        color: red;
+}
+#intro{
+    color: #9E9393;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 32%;
+    left: 25%;
+}
+@keyframes type{
+    0%{
+        width: 0ch;
+    }
+    100%{
+        width:17ch;
+    }
+}
+#welcome{
+    animation: type 3s steps(17); 
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: Roboto Mono;
+    border-right: 4px solid #9E9393;
+    width: 17ch;
+}
+.a{
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 21%;
+    transform: rotate(-17deg);
+    font-family: initial;
+    font-size: 18px;
+
+}
+#interest{
+    position: absolute;
+    top: 110%;
+    background-image: url(../MyWebsite/Images/bg11.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}

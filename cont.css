@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    height: 80%;
+    color: black;
+}
+div{
+    color: black;
+    font-size: 32px;
+    font-family: Quicksand;
+}
+#dev{
+ color: green;   
+ font-family: Baloo Tamma 2 SemiBold;
+ 
+}
+nav{
+    width: 100%;
+    height: 5vh;
+padding: 20px;
+overflow: hidden;
+border-bottom: 2px solid gray;
+background-color: #f33f3;
+}
+ul{
+    font-size: 15px;
+    float: right;
+    list-style-type: none;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #E3BABA; 
+    padding: 5px 50px;
+    border: none;
+    transition: o.6s ease;
+
+}
+ul li a:hover{
+    color: red;
+}
+ul li.active a{
+        color: red;
+}
+#intro{
+    color: #9E9393;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 32%;
+    left: 25%;
+}
+body{
+background-color: white;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+table img{
+    width: 180px;
+    height:180px;
+}
+table{
+    margin-top: 10%;
+    margin-left: 20%; 
+    margin-right: auto;
+    width: 80%;
+}
+#dev{
+    color: green;   
+    font-family: Baloo Tamma 2 SemiBold;
+    font-size: 30px;
+   }
